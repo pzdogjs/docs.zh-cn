@@ -22,7 +22,7 @@
 
 ### 升级注意事项
 
-- 如您系统中有名为 starrocks 的库，请先通过 `ATER DATABASE RENAME` 改名后再升级。
+- 如果您系统中有名为 `starrocks` 的数据库，请先通过 ALTER DATABASE RENAME 改名后再进行升级。
 
 ## 3.0.1
 
@@ -51,7 +51,7 @@
 
 ### 升级注意事项
 
-- 如您系统中有名为 starrocks 的库，请先通过 `ATER DATABASE RENAME` 改名后再升级。
+- 如果您系统中有名为 `starrocks` 的数据库，请先通过 ALTER DATABASE RENAME 改名后再进行升级。
 
 ## 3.0.0
 
