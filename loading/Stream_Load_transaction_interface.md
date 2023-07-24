@@ -187,6 +187,7 @@ curl --location-trusted -u <jack>:<123456> -H "label:streamload_txn_example1_tab
     -H "db:test_db" -H "table:table1" \
     -T /home/disk1/example1.csv \
     -H "column_separator: ," \
+    -H "columns: <column-1>,<column-n>" \
     -XPUT http://<fe_host>:<fe_http_port>/api/transaction/load
 ```
 
